@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		330FB6A02D78784E0015FBBC /* UthmanTN_v2-0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 330FB69F2D78784E0015FBBC /* UthmanTN_v2-0.ttf */; };
+		330FB6AA2D78A2D10015FBBC /* bookImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 330FB6A92D78A2D10015FBBC /* bookImage.jpg */; };
+		330FB6AC2D78A3CE0015FBBC /* book_cover2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 330FB6AB2D78A3CE0015FBBC /* book_cover2.jpg */; };
+		330FB6B62D7B18590015FBBC /* KfgqpcHafsUthmanicScriptRegular-1jGEe.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 330FB6B52D7B18590015FBBC /* KfgqpcHafsUthmanicScriptRegular-1jGEe.ttf */; };
+		338C09212D85575300CC310D /* salawat_v4.json in Resources */ = {isa = PBXBuildFile; fileRef = 338C09202D85575200CC310D /* salawat_v4.json */; };
+		339B1BA72D454679006D5782 /* _0_SalawatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339B1BA62D454679006D5782 /* _0_SalawatApp.swift */; };
+		339B1BA92D454679006D5782 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339B1BA82D454679006D5782 /* ContentView.swift */; };
+		339B1BAB2D45467C006D5782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339B1BAA2D45467C006D5782 /* Assets.xcassets */; };
+		339B1BAE2D45467C006D5782 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339B1BAD2D45467C006D5782 /* Preview Assets.xcassets */; };
+		339B1BB82D45467D006D5782 /* _0_SalawatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339B1BB72D45467D006D5782 /* _0_SalawatTests.swift */; };
+		339B1BC22D45467D006D5782 /* _0_SalawatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339B1BC12D45467D006D5782 /* _0_SalawatUITests.swift */; };
+		339B1BC42D45467D006D5782 /* _0_SalawatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339B1BC32D45467D006D5782 /* _0_SalawatUITestsLaunchTests.swift */; };
+		339B1BD42D454DE3006D5782 /* AmiriQuran-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 339B1BD32D454DE3006D5782 /* AmiriQuran-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		339B1BB42D45467D006D5782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 339B1B9B2D454679006D5782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 339B1BA22D454679006D5782;
+			remoteInfo = "40 Salawat";
+		};
+		339B1BBE2D45467D006D5782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 339B1B9B2D454679006D5782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 339B1BA22D454679006D5782;
+			remoteInfo = "40 Salawat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		330FB69F2D78784E0015FBBC /* UthmanTN_v2-0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UthmanTN_v2-0.ttf"; sourceTree = "<group>"; };
+		330FB6A92D78A2D10015FBBC /* bookImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bookImage.jpg; sourceTree = "<group>"; };
+		330FB6AB2D78A3CE0015FBBC /* book_cover2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = book_cover2.jpg; sourceTree = "<group>"; };
+		330FB6B52D7B18590015FBBC /* KfgqpcHafsUthmanicScriptRegular-1jGEe.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KfgqpcHafsUthmanicScriptRegular-1jGEe.ttf"; sourceTree = "<group>"; };
+		338C09202D85575200CC310D /* salawat_v4.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = salawat_v4.json; sourceTree = "<group>"; };
+		339B1BA32D454679006D5782 /* 40 Salawat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "40 Salawat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		339B1BA62D454679006D5782 /* _0_SalawatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0_SalawatApp.swift; sourceTree = "<group>"; };
+		339B1BA82D454679006D5782 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		339B1BAA2D45467C006D5782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		339B1BAD2D45467C006D5782 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		339B1BB32D45467D006D5782 /* 40 SalawatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "40 SalawatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		339B1BB72D45467D006D5782 /* _0_SalawatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0_SalawatTests.swift; sourceTree = "<group>"; };
+		339B1BBD2D45467D006D5782 /* 40 SalawatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "40 SalawatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		339B1BC12D45467D006D5782 /* _0_SalawatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0_SalawatUITests.swift; sourceTree = "<group>"; };
+		339B1BC32D45467D006D5782 /* _0_SalawatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0_SalawatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		339B1BD22D4549D2006D5782 /* -0-Salawat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "-0-Salawat-Info.plist"; sourceTree = SOURCE_ROOT; };
+		339B1BD32D454DE3006D5782 /* AmiriQuran-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AmiriQuran-Regular.ttf"; path = "../../../Desktop/Amiri_Quran/AmiriQuran-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		339B1BA02D454679006D5782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339B1BB02D45467D006D5782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339B1BBA2D45467D006D5782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		339B1B9A2D454679006D5782 = {
+			isa = PBXGroup;
+			children = (
+				339B1BA52D454679006D5782 /* 40 Salawat */,
+				339B1BB62D45467D006D5782 /* 40 SalawatTests */,
+				339B1BC02D45467D006D5782 /* 40 SalawatUITests */,
+				339B1BA42D454679006D5782 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		339B1BA42D454679006D5782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				339B1BA32D454679006D5782 /* 40 Salawat.app */,
+				339B1BB32D45467D006D5782 /* 40 SalawatTests.xctest */,
+				339B1BBD2D45467D006D5782 /* 40 SalawatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		339B1BA52D454679006D5782 /* 40 Salawat */ = {
+			isa = PBXGroup;
+			children = (
+				339B1BD22D4549D2006D5782 /* -0-Salawat-Info.plist */,
+				339B1BA62D454679006D5782 /* _0_SalawatApp.swift */,
+				339B1BA82D454679006D5782 /* ContentView.swift */,
+				338C09202D85575200CC310D /* salawat_v4.json */,
+				330FB6A92D78A2D10015FBBC /* bookImage.jpg */,
+				330FB6AB2D78A3CE0015FBBC /* book_cover2.jpg */,
+				339B1BAA2D45467C006D5782 /* Assets.xcassets */,
+				330FB69F2D78784E0015FBBC /* UthmanTN_v2-0.ttf */,
+				330FB6B52D7B18590015FBBC /* KfgqpcHafsUthmanicScriptRegular-1jGEe.ttf */,
+				339B1BD32D454DE3006D5782 /* AmiriQuran-Regular.ttf */,
+				339B1BAC2D45467C006D5782 /* Preview Content */,
+			);
+			path = "40 Salawat";
+			sourceTree = "<group>";
+		};
+		339B1BAC2D45467C006D5782 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				339B1BAD2D45467C006D5782 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		339B1BB62D45467D006D5782 /* 40 SalawatTests */ = {
+			isa = PBXGroup;
+			children = (
+				339B1BB72D45467D006D5782 /* _0_SalawatTests.swift */,
+			);
+			path = "40 SalawatTests";
+			sourceTree = "<group>";
+		};
+		339B1BC02D45467D006D5782 /* 40 SalawatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				339B1BC12D45467D006D5782 /* _0_SalawatUITests.swift */,
+				339B1BC32D45467D006D5782 /* _0_SalawatUITestsLaunchTests.swift */,
+			);
+			path = "40 SalawatUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		339B1BA22D454679006D5782 /* 40 Salawat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339B1BC72D45467D006D5782 /* Build configuration list for PBXNativeTarget "40 Salawat" */;
+			buildPhases = (
+				339B1B9F2D454679006D5782 /* Sources */,
+				339B1BA02D454679006D5782 /* Frameworks */,
+				339B1BA12D454679006D5782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "40 Salawat";
+			productName = "40 Salawat";
+			productReference = 339B1BA32D454679006D5782 /* 40 Salawat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		339B1BB22D45467D006D5782 /* 40 SalawatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339B1BCA2D45467D006D5782 /* Build configuration list for PBXNativeTarget "40 SalawatTests" */;
+			buildPhases = (
+				339B1BAF2D45467D006D5782 /* Sources */,
+				339B1BB02D45467D006D5782 /* Frameworks */,
+				339B1BB12D45467D006D5782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				339B1BB52D45467D006D5782 /* PBXTargetDependency */,
+			);
+			name = "40 SalawatTests";
+			productName = "40 SalawatTests";
+			productReference = 339B1BB32D45467D006D5782 /* 40 SalawatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		339B1BBC2D45467D006D5782 /* 40 SalawatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339B1BCD2D45467D006D5782 /* Build configuration list for PBXNativeTarget "40 SalawatUITests" */;
+			buildPhases = (
+				339B1BB92D45467D006D5782 /* Sources */,
+				339B1BBA2D45467D006D5782 /* Frameworks */,
+				339B1BBB2D45467D006D5782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				339B1BBF2D45467D006D5782 /* PBXTargetDependency */,
+			);
+			name = "40 SalawatUITests";
+			productName = "40 SalawatUITests";
+			productReference = 339B1BBD2D45467D006D5782 /* 40 SalawatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		339B1B9B2D454679006D5782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					339B1BA22D454679006D5782 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					339B1BB22D45467D006D5782 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 339B1BA22D454679006D5782;
+					};
+					339B1BBC2D45467D006D5782 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 339B1BA22D454679006D5782;
+					};
+				};
+			};
+			buildConfigurationList = 339B1B9E2D454679006D5782 /* Build configuration list for PBXProject "40 Salawat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 339B1B9A2D454679006D5782;
+			productRefGroup = 339B1BA42D454679006D5782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				339B1BA22D454679006D5782 /* 40 Salawat */,
+				339B1BB22D45467D006D5782 /* 40 SalawatTests */,
+				339B1BBC2D45467D006D5782 /* 40 SalawatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		339B1BA12D454679006D5782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330FB6AA2D78A2D10015FBBC /* bookImage.jpg in Resources */,
+				330FB6AC2D78A3CE0015FBBC /* book_cover2.jpg in Resources */,
+				338C09212D85575300CC310D /* salawat_v4.json in Resources */,
+				339B1BAE2D45467C006D5782 /* Preview Assets.xcassets in Resources */,
+				330FB6A02D78784E0015FBBC /* UthmanTN_v2-0.ttf in Resources */,
+				330FB6B62D7B18590015FBBC /* KfgqpcHafsUthmanicScriptRegular-1jGEe.ttf in Resources */,
+				339B1BD42D454DE3006D5782 /* AmiriQuran-Regular.ttf in Resources */,
+				339B1BAB2D45467C006D5782 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339B1BB12D45467D006D5782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339B1BBB2D45467D006D5782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		339B1B9F2D454679006D5782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339B1BA92D454679006D5782 /* ContentView.swift in Sources */,
+				339B1BA72D454679006D5782 /* _0_SalawatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339B1BAF2D45467D006D5782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339B1BB82D45467D006D5782 /* _0_SalawatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		339B1BB92D45467D006D5782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339B1BC22D45467D006D5782 /* _0_SalawatUITests.swift in Sources */,
+				339B1BC42D45467D006D5782 /* _0_SalawatUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		339B1BB52D45467D006D5782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 339B1BA22D454679006D5782 /* 40 Salawat */;
+			targetProxy = 339B1BB42D45467D006D5782 /* PBXContainerItemProxy */;
+		};
+		339B1BBF2D45467D006D5782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 339B1BA22D454679006D5782 /* 40 Salawat */;
+			targetProxy = 339B1BBE2D45467D006D5782 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		339B1BC52D45467D006D5782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		339B1BC62D45467D006D5782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		339B1BC82D45467D006D5782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"40 Salawat/Preview Content\"";
+				DEVELOPMENT_TEAM = CS76246BNQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-0-Salawat-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omar.jahangir.40salawat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		339B1BC92D45467D006D5782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"40 Salawat/Preview Content\"";
+				DEVELOPMENT_TEAM = CS76246BNQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-0-Salawat-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omar.jahangir.40salawat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		339B1BCB2D45467D006D5782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CS76246BNQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "omarjahangir.-0-SalawatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/40 Salawat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/40 Salawat";
+			};
+			name = Debug;
+		};
+		339B1BCC2D45467D006D5782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CS76246BNQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "omarjahangir.-0-SalawatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/40 Salawat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/40 Salawat";
+			};
+			name = Release;
+		};
+		339B1BCE2D45467D006D5782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CS76246BNQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "omarjahangir.-0-SalawatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "40 Salawat";
+			};
+			name = Debug;
+		};
+		339B1BCF2D45467D006D5782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CS76246BNQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "omarjahangir.-0-SalawatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "40 Salawat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		339B1B9E2D454679006D5782 /* Build configuration list for PBXProject "40 Salawat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339B1BC52D45467D006D5782 /* Debug */,
+				339B1BC62D45467D006D5782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339B1BC72D45467D006D5782 /* Build configuration list for PBXNativeTarget "40 Salawat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339B1BC82D45467D006D5782 /* Debug */,
+				339B1BC92D45467D006D5782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339B1BCA2D45467D006D5782 /* Build configuration list for PBXNativeTarget "40 SalawatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339B1BCB2D45467D006D5782 /* Debug */,
+				339B1BCC2D45467D006D5782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339B1BCD2D45467D006D5782 /* Build configuration list for PBXNativeTarget "40 SalawatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339B1BCE2D45467D006D5782 /* Debug */,
+				339B1BCF2D45467D006D5782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 339B1B9B2D454679006D5782 /* Project object */;
+}
